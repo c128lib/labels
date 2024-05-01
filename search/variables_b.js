@@ -4,7 +4,7 @@ var searchData=
   ['light_5fpen_5fvertical_5fposition_1',['LIGHT_PEN_VERTICAL_POSITION',['../namespaceVdc.html#addf14019b25ecf330d62a28c7ceee291',1,'Vdc']]],
   ['lightpen_5fx_2',['LIGHTPEN_X',['../namespaceVic2.html#a198c11acc338c6d852d93adbbc803a83',1,'Vic2']]],
   ['lightpen_5fy_3',['LIGHTPEN_Y',['../namespaceVic2.html#a799600c909401c5dc8e710f0c3f925cf',1,'Vic2']]],
-  ['listn_4',['LISTN',['../namespaceKernal.html#abe808d11802c3b51988e7e6e26f42fed',1,'Kernal']]],
+  ['listen_4',['LISTEN',['../namespaceKernal.html#aa0860e5c73eea93242e275f770f3b78b',1,'Kernal']]],
   ['lkupla_5',['LKUPLA',['../namespaceKernal.html#a04347b6c13df4ba607762e575e50ffa8',1,'Kernal']]],
   ['lkupsa_6',['LKUPSA',['../namespaceKernal.html#a0f6e83d6f123086d6d1dc599ba1e6be2',1,'Kernal']]],
   ['load_7',['LOAD',['../namespaceKernal.html#a0a015d0367c75eaf31fe4af4e6c42414',1,'Kernal']]],
