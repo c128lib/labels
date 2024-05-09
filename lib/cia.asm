@@ -1,25 +1,33 @@
 /**
  * @file cia.asm
  * @brief Cia module
- * @details Labels for Cia support
- * 
+ * @details This file contains labels that map to the CIA registers of the Commodore 128.
+ *
+ * The Commodore 128 has two CIA chips. CIA registers control various
+ * aspects of the computer's hardware such as the keyboard, the disk drives, the user port,
+ * the datasette port, the RS-232 port.
+ *
  * https://c128lib.github.io/Reference/Cia
+ *
+ * https://c128lib.github.io/Reference/DC00
+ *
+ * https://c128lib.github.io/Reference/DD00
  *
  * @author Raffaele Intorcia raffaele.intorcia@gmail.com
  *
  * @copyright MIT License
  * Copyright (c) 2024 c128lib - https://github.com/c128lib
- * 
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

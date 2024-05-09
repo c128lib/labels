@@ -1,25 +1,28 @@
 /**
  * @file mmu.asm
  * @brief Mmu module
- * @details Labels for Mmu support
- * 
+ * @details This file contains labels that map to the MMU registers of the Commodore 128.
+ *
+ * The Commodore 128 has a MMU chip, which is responsible for managing the computer's memory.
+ * The MMU chip controls the memory configuration, including the mapping of ROM and RAM banks.
+ *
  * https://c128lib.github.io/Reference/Mmu
  *
  * @author Raffaele Intorcia raffaele.intorcia@gmail.com
  *
  * @copyright MIT License
  * Copyright (c) 2024 c128lib - https://github.com/c128lib
- * 
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
