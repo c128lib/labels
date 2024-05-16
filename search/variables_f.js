@@ -14,6 +14,7 @@ var searchData=
   ['preconfig_5fc_11',['PRECONFIG_C',['../namespaceMmu.html#a6cc1449afc1f222349e91747c917b238',1,'Mmu']]],
   ['preconfig_5fd_12',['PRECONFIG_D',['../namespaceMmu.html#a678f534f6daeb47c9d99df55ab954fd2',1,'Mmu']]],
   ['primm_13',['PRIMM',['../namespaceKernal.html#a473732b957d48dad7cc72352e54c0e65',1,'Kernal']]],
-  ['print_14',['PRINT',['../namespaceScreenEditor.html#a2570368bce02755d2d980b6a8296fe92',1,'ScreenEditor']]],
-  ['prntexit_15',['PRNTEXIT',['../namespaceScreenEditor.html#ad762d9f313e34e0a4b35f0cc766aa48c',1,'ScreenEditor']]]
+  ['print_14',['PRINT',['../namespaceBasic.html#a2570368bce02755d2d980b6a8296fe92',1,'Basic::PRINT'],['../namespaceScreenEditor.html#a2570368bce02755d2d980b6a8296fe92',1,'ScreenEditor::PRINT']]],
+  ['print_5f_15',['PRINT_',['../namespaceBasic.html#abff80e429b3c08de48305637a37f825f',1,'Basic']]],
+  ['prntexit_16',['PRNTEXIT',['../namespaceScreenEditor.html#ad762d9f313e34e0a4b35f0cc766aa48c',1,'ScreenEditor']]]
 ];

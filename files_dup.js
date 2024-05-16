@@ -1,5 +1,6 @@
 var files_dup =
 [
+    [ "basic.asm", "basic_8asm.html", "basic_8asm" ],
     [ "cia.asm", "cia_8asm.html", "cia_8asm" ],
     [ "kernal.asm", "kernal_8asm.html", "kernal_8asm" ],
     [ "mmu.asm", "mmu_8asm.html", "mmu_8asm" ],

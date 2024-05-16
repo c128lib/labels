@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mmu_2easm_0',['mmu.asm',['../mmu_8asm.html',1,'']]]
+  ['kernal_2easm_0',['kernal.asm',['../kernal_8asm.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['vdc_2easm_0',['vdc.asm',['../vdc_8asm.html',1,'']]],
-  ['vic2_2easm_1',['vic2.asm',['../vic2_8asm.html',1,'']]]
+  ['screeneditor_2easm_0',['screeneditor.asm',['../screeneditor_8asm.html',1,'']]],
+  ['sid_2easm_1',['sid.asm',['../sid_8asm.html',1,'']]]
 ];
