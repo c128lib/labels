@@ -64,44 +64,44 @@
 .label PAGE1_BLOCK_POINTER  = $D50A
 /** Version register https://c128lib.github.io/Reference/D500#D50B */
 .label MMU_VERSION          = $D50B
-/** Configuration register https://c128lib.github.io/Reference/FF00#FF00 */
+/** Configuration register https://c128lib.github.io/Reference/E000#FF00 */
 .label LOAD_CONFIGURATION   = $FF00
-/** Load configuration register A https://c128lib.github.io/Reference/FF00#FF01 */
+/** Load configuration register A https://c128lib.github.io/Reference/E000#FF01 */
 .label LOAD_PRECONFIG_A     = $FF01
-/** Load configuration register B https://c128lib.github.io/Reference/FF00#FF02 */
+/** Load configuration register B https://c128lib.github.io/Reference/E000#FF02 */
 .label LOAD_PRECONFIG_B     = $FF02
-/** Load configuration register C https://c128lib.github.io/Reference/FF00#FF03 */
+/** Load configuration register C https://c128lib.github.io/Reference/E000#FF03 */
 .label LOAD_PRECONFIG_C     = $FF03
-/** Load configuration register D https://c128lib.github.io/Reference/FF00#FF04 */
+/** Load configuration register D https://c128lib.github.io/Reference/E000#FF04 */
 .label LOAD_PRECONFIG_D     = $FF04
 
-/** Mask for configuration bit 0 to set ROM active on address $d000-$dfff */
+/** Mask for configuration bit 0 to set ROM active on address $D000-$DFFF */
 .label IO_ROM             = %00000000
-/** Mask for configuration bit 0 to set RAM active on address $d000-$dfff */
+/** Mask for configuration bit 0 to set RAM active on address $D000-$DFFF */
 .label IO_RAM             = %00000001
 
-/** Mask for configuration bit 1 to set ROM active on address $4000-$7fff (Basic low rom) */
+/** Mask for configuration bit 1 to set ROM active on address $4000-$7FFF (Basic low rom) */
 .label ROM_LOW_ROM        = %00000000
-/** Mask for configuration bit 1 to set RAM active on address $4000-$7fff (Basic low rom) */
+/** Mask for configuration bit 1 to set RAM active on address $4000-$7FFF (Basic low rom) */
 .label ROM_LOW_RAM        = %00000010
 
 /** Mask for configuration bits 2-3 to set ROM active on upper portion of BASIC ROM ($8000-$AFFF), plus monitor ROM ($B000-$BFFF) */
 .label ROM_MID_ROM        = %00000000
 /** Mask for configuration bits 2-3 to set internal function ROM: refers to ROM in the free ROM socket on the 128 circuit board */
 .label ROM_MID_INT        = %00000100
-/** Mask for configuration bits 2-3 to set xxternal function ROM: refers to ROM in a cartridge plugged into the expansion port. */
+/** Mask for configuration bits 2-3 to set external function ROM: refers to ROM in a cartridge plugged into the expansion port. */
 .label ROM_MID_EXT        = %00001000
 /** Mask for configuration bits 2-3 to set RAM active on upper portion of BASIC ROM ($8000-$AFFF), plus monitor ROM ($B000-$BFFF) */
 .label ROM_MID_RAM        = %00001100
 
-// bit 4-5 - controls rom mid space $c000-$ffff (Screen editor rom, kernal rom)
-/** Mask for configuration bits 4-5 to set ROM active on screen editor ROM ($c000-$cfff), character ROM ($d000-$Ddfff), Kemal ROM ($e000-$ffff) */
+// bit 4-5 - controls rom mid space $C000-$FFFF (Screen editor rom, kernal rom)
+/** Mask for configuration bits 4-5 to set ROM active on screen editor ROM ($C000-$CFFF), character ROM ($D000-$DFFF), Kemal ROM ($E000-$FFFF) */
 .label ROM_HI             = %00000000
 /** Mask for configuration bits 4-5 to set internal function ROM: refers to ROM in the free ROM socket on the 128 circuit board. */
 .label ROM_HI_INT         = %00010000
 /** Mask for configuration bits 4-5 to set external function ROM: refers to ROM in a cartridge plugged into the expansion port. */
 .label ROM_HI_EXT         = %00100000
-/** Mask for configuration bits 4-5 to set RAM active on screen editor ROM ($c000-$cfff), character ROM ($d000-$Ddfff), Kemal ROM ($e000-$ffff) */
+/** Mask for configuration bits 4-5 to set RAM active on screen editor ROM ($C000-$CFFF), character ROM ($D000-$DFFF), Kemal ROM ($E000-$FFFF) */
 .label ROM_HI_RAM         = %00110000
 
 /** Mask for configuration bit 6 to set block 0 active */

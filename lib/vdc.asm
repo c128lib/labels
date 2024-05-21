@@ -75,16 +75,16 @@
 /** White color code */
 .label VDC_WHITE = 15
 
-.label COLOR80    = $ce5c
+.label COLOR80    = $CE5C
 
-.label MODE       = $d7
+.label MODE       = $D7
 
 .label TEXT_SCREEN_80_COL_WIDTH = 80
 
-/** Vdc address/status register */
-.label VDCADR     = $d600
-/** Vdc data register */
-.label VDCDAT     = $d601
+/** Vdc address/status register https://c128lib.github.io/Reference/D600#D600 */
+.label VDCADR     = $D600
+/** Vdc data register https://c128lib.github.io/Reference/D600#D601 */
+.label VDCDAT     = $D601
 
 /** Total number of horizontal character positions https://c128lib.github.io/Reference/Vdc#00 */
 .label TOTALE_NUMBER_OF_HORIZONTAL_CHARACTER_POSITIONS    = $00

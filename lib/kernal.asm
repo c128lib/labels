@@ -70,7 +70,6 @@
 .label UNLSN = $E526
 /** Sets serial device for fast serial input https://c128lib.github.io/Reference/E000#E5C3 */
 .label SPIN = $E5C3
-
 /** Sets serial device for fast serial output https://c128lib.github.io/Reference/E000#E5D6 */
 .label SPOUT = $E5D6
 /** Sets serial device for fast serial input or output https://c128lib.github.io/Reference/E000#E5FB */
@@ -149,7 +148,6 @@
 .label NMI = $FA40
 /** Handles IRQ interrupts https://c128lib.github.io/Reference/E000#FA65 */
 .label IRQ = $FA65
-
 /** Serial fast input or output https://c128lib.github.io/Reference/E000#FF47 */
 .label JSPIN_SPOUT = $FF47
 /** Close all files to a device https://c128lib.github.io/Reference/E000#FF4A */

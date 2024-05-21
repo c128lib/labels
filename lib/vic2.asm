@@ -160,7 +160,7 @@
 .label SPRITE_MOTION_6      = $11C0
 /** Sprite 7 movement control data https://c128lib.github.io/Reference/1100#117E */
 .label SPRITE_MOTION_7      = $11CB
-/** Offset between sprite control data pointers https://c128lib.github.io/Reference/1100#117E */
+/** Offset between sprite control data pointers */
 .label SPRITE_MOTION_OFFSET = $0B
 
 .label SPRITE_MAIN_DIR_UP   = $00
@@ -180,49 +180,49 @@
 .label SPRITE_MASK_6 = %01000000
 .label SPRITE_MASK_7 = %10000000
 
-/** Vic2 first shadow register  https://c128lib.github.io/Reference/11D6 */
+/** Vic2 first shadow register  https://c128lib.github.io/Reference/1100#11D6 */
 .label SHADOW_VIC2          = $11D6
-/** Sprite 0 shadow register x-coordinate https://c128lib.github.io/Reference/11D6#11D6 */
+/** Sprite 0 shadow register x-coordinate https://c128lib.github.io/Reference/1100#11D6 */
 .label SHADOW_SPRITE_0_X    = SHADOW_VIC2 + $00
-/** Sprite 0 shadow register y-coordinate https://c128lib.github.io/Reference/11D6#11D7 */
+/** Sprite 0 shadow register y-coordinate https://c128lib.github.io/Reference/1100#11D7 */
 .label SHADOW_SPRITE_0_Y    = SHADOW_VIC2 + $01
-/** Sprite 1 shadow register x-coordinate https://c128lib.github.io/Reference/11D6#11D8 */
+/** Sprite 1 shadow register x-coordinate https://c128lib.github.io/Reference/1100#11D8 */
 .label SHADOW_SPRITE_1_X    = SHADOW_VIC2 + $02
-/** Sprite 1 shadow register y-coordinate https://c128lib.github.io/Reference/11D6#11D9 */
+/** Sprite 1 shadow register y-coordinate https://c128lib.github.io/Reference/1100#11D9 */
 .label SHADOW_SPRITE_1_Y    = SHADOW_VIC2 + $03
-/** Sprite 2 shadow register x-coordinate https://c128lib.github.io/Reference/11D6#11DA */
+/** Sprite 2 shadow register x-coordinate https://c128lib.github.io/Reference/1100#11DA */
 .label SHADOW_SPRITE_2_X    = SHADOW_VIC2 + $04
-/** Sprite 2 shadow register y-coordinate https://c128lib.github.io/Reference/11D6#11DB */
+/** Sprite 2 shadow register y-coordinate https://c128lib.github.io/Reference/1100#11DB */
 .label SHADOW_SPRITE_2_Y    = SHADOW_VIC2 + $05
-/** Sprite 3 shadow register x-coordinate https://c128lib.github.io/Reference/11D6#11DC */
+/** Sprite 3 shadow register x-coordinate https://c128lib.github.io/Reference/1100#11DC */
 .label SHADOW_SPRITE_3_X    = SHADOW_VIC2 + $06
-/** Sprite 3 shadow register y-coordinate https://c128lib.github.io/Reference/11D6#11DD */
+/** Sprite 3 shadow register y-coordinate https://c128lib.github.io/Reference/1100#11DD */
 .label SHADOW_SPRITE_3_Y    = SHADOW_VIC2 + $07
-/** Sprite 4 shadow register x-coordinate https://c128lib.github.io/Reference/11D6#11DE */
+/** Sprite 4 shadow register x-coordinate https://c128lib.github.io/Reference/1100#11DE */
 .label SHADOW_SPRITE_4_X    = SHADOW_VIC2 + $08
-/** Sprite 4 shadow register y-coordinate https://c128lib.github.io/Reference/11D6#11DF */
+/** Sprite 4 shadow register y-coordinate https://c128lib.github.io/Reference/1100#11DF */
 .label SHADOW_SPRITE_4_Y    = SHADOW_VIC2 + $09
-/** Sprite 5 shadow register x-coordinate https://c128lib.github.io/Reference/11D6#11E0 */
+/** Sprite 5 shadow register x-coordinate https://c128lib.github.io/Reference/1100#11E0 */
 .label SHADOW_SPRITE_5_X    = SHADOW_VIC2 + $0A
-/** Sprite 5 shadow register y-coordinate https://c128lib.github.io/Reference/11D6#11E1 */
+/** Sprite 5 shadow register y-coordinate https://c128lib.github.io/Reference/1100#11E1 */
 .label SHADOW_SPRITE_5_Y    = SHADOW_VIC2 + $0B
-/** Sprite 6 shadow register x-coordinate https://c128lib.github.io/Reference/11D6#11E2 */
+/** Sprite 6 shadow register x-coordinate https://c128lib.github.io/Reference/1100#11E2 */
 .label SHADOW_SPRITE_6_X    = SHADOW_VIC2 + $0C
-/** Sprite 6 shadow register y-coordinate https://c128lib.github.io/Reference/11D6#11E3 */
+/** Sprite 6 shadow register y-coordinate https://c128lib.github.io/Reference/1100#11E3 */
 .label SHADOW_SPRITE_6_Y    = SHADOW_VIC2 + $0D
-/** Sprite 7 shadow register x-coordinate https://c128lib.github.io/Reference/11D6#11E4 */
+/** Sprite 7 shadow register x-coordinate https://c128lib.github.io/Reference/1100#11E4 */
 .label SHADOW_SPRITE_7_X    = SHADOW_VIC2 + $0E
-/** Sprite 7 shadow register y-coordinate https://c128lib.github.io/Reference/11D6#11E5 */
+/** Sprite 7 shadow register y-coordinate https://c128lib.github.io/Reference/1100#11E5 */
 .label SHADOW_SPRITE_7_Y    = SHADOW_VIC2 + $0F
-/** Sprite shadow register msb for setting x pos over 255 px https://c128lib.github.io/Reference/11D6#11E6 */
+/** Sprite shadow register msb for setting x pos over 255 px https://c128lib.github.io/Reference/1100#11E6 */
 .label SHADOW_SPRITE_MSB_X  = SHADOW_VIC2 + $10
-/** Sprite-to-sprite collision shadow register https://c128lib.github.io/Reference/11D6#11E7 */
+/** Sprite-to-sprite collision shadow register https://c128lib.github.io/Reference/1100#11E7 */
 .label SHADOW_SPRITE_2S_COLLISION = SHADOW_VIC2 + $11
-/** Sprite-to-background collision shadow register https://c128lib.github.io/Reference/11D6#11E8 */
+/** Sprite-to-background collision shadow register https://c128lib.github.io/Reference/1100#11E8 */
 .label SHADOW_SPRITE_2B_COLLISION = SHADOW_VIC2 + $12
-/** Light pen horizontal position shadow register https://c128lib.github.io/Reference/11D6#11E9 */
+/** Light pen horizontal position shadow register https://c128lib.github.io/Reference/1100#11E9 */
 .label SHADOW_LIGHTPEN_X    = SHADOW_VIC2 + $13
-/** Light pen vertical position shadow register https://c128lib.github.io/Reference/11D6#11EA */
+/** Light pen vertical position shadow register https://c128lib.github.io/Reference/1100#11EA */
 .label SHADOW_LIGHTPEN_Y    = SHADOW_VIC2 + $14
 
 .label COLOR_RAM            = $D800
@@ -231,49 +231,53 @@
 .label RASTER_MAX_PAL       = 312
 .label RASTER_MAX_NTSC      = 263
 
-/** Extra bit for raster register */
+/** Extra bit for raster register https://c128lib.github.io/Reference/D000#D011 */
 .label CONTROL_1_RASTER8  = %10000000
-/** Extended background color mode */
+/** Extended background color mode https://c128lib.github.io/Reference/D000#D011 */
 .label CONTROL_1_ECM      = %01000000
-/** Char mode or bitmapped mode */
+/** Char mode or bitmapped mode https://c128lib.github.io/Reference/D000#D011 */
 .label CONTROL_1_BMM      = %00100000
-/** Enable or disable Vic screen */
+/** Enable or disable Vic screen https://c128lib.github.io/Reference/D000#D011 */
 .label CONTROL_1_DEN      = %00010000
-/** Vertical screen row count */
+/** Vertical screen row count https://c128lib.github.io/Reference/D000#D011 */
 .label CONTROL_1_RSEL     = %00001000
 
 /** Reset bit */
 .label CONTROL_2_RES      = %00100000
-/** Multicolor mode */
+/** Multicolor mode https://c128lib.github.io/Reference/D000#D016 */
 .label CONTROL_2_MCM      = %00010000
 /** Horizontal screen column count */
 .label CONTROL_2_CSEL     = %00001000
 
-/** Irq status */
+/** Irq status https://c128lib.github.io/Reference/D000#D019 */
 .label IRR_IRQ            = %10000000
-/** Light pen signal */
+/** Light pen signal https://c128lib.github.io/Reference/D000#D019 */
 .label IRR_LIGHTPEN       = %00001000
-/** Sprite to sprite collision */
+/** Sprite to sprite collision https://c128lib.github.io/Reference/D000#D019 */
 .label IRR_SPR_SPR        = %00000100
-/** Sprite to background collision */
+/** Sprite to background collision https://c128lib.github.io/Reference/D000#D019 */
 .label IRR_SPR_BG         = %00000010
-/** Irq on raster line */
+/** Irq on raster line https://c128lib.github.io/Reference/D000#D019 */
 .label IRR_RASTER         = %00000001
 
-/** Light pen interrupt */
+/** Light pen interrupt https://c128lib.github.io/Reference/D000#D01A */
 .label IMR_LIGHTPEN       = %00001000
-/** Sprite to sprite collision interrupt */
+/** Sprite to sprite collision interrupt https://c128lib.github.io/Reference/D000#D01A */
 .label IMR_SPR_SPR        = %00000100
-/** Sprite to background collision interrupt */
+/** Sprite to background collision interrupt https://c128lib.github.io/Reference/D000#D01A */
 .label IMR_SPR_BG         = %00000010
-/** Raster interrupt */
+/** Raster interrupt https://c128lib.github.io/Reference/D000#D01A */
 .label IMR_RASTER         = %00000001
 
-// Graphic modes
+/** Standard text mode https://c128lib.github.io/Reference/Vic#character-display-modes */
 .label STANDARD_TEXT_MODE     = %000
+/** Multicolor text mode https://c128lib.github.io/Reference/Vic#multicolor-character-mode */
 .label MULTICOLOR_TEXT_MODE   = %001
+/**+ Bitmapped display mode https://c128lib.github.io/Reference/Vic#bitmapped-display-modes */
 .label STANDARD_BITMAP_MODE   = %010
+/** Multicolor bitmapped mode https://c128lib.github.io/Reference/Vic#multicolor-bitmapped-mode */
 .label MULTICOLOR_BITMAP_MODE = %011
+/** Extended background color mode https://c128lib.github.io/Reference/Vic#extended-background-color-mode */
 .label EXTENDED_TEXT_MODE     = %100
 
 .label MODE_ECM               = %100
