@@ -598,5 +598,12 @@ var namespaces_dup =
       [ "SCREEN_MEM_3C00", "namespaceVic2.html#a82725908b36696719cf95a718767fafb", null ],
       [ "BITMAP_MEM_0000", "namespaceVic2.html#afbc66c237f511a7ba4a6711c79b8650d", null ],
       [ "BITMAP_MEM_2000", "namespaceVic2.html#a617f060ddd9b1a30fc8713f1b901b75d", null ]
+    ] ],
+    [ "Zeropage", "namespaceZeropage.html", [
+      [ "FA", "namespaceZeropage.html#a7845c4b09d27acad70f6f1fe472050b9", null ],
+      [ "FB", "namespaceZeropage.html#aecb3ba006019f0ab08cc3233b05bc0fe", null ],
+      [ "FC", "namespaceZeropage.html#ac55d1bd991c419cf483a6e16e8beb735", null ],
+      [ "FD", "namespaceZeropage.html#a1c761c46b213433face66b974535b7ee", null ],
+      [ "FE", "namespaceZeropage.html#a00fb640bd98f7173510892486a93b092", null ]
     ] ]
 ];

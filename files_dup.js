@@ -7,5 +7,6 @@ var files_dup =
     [ "screeneditor.asm", "screeneditor_8asm.html", "screeneditor_8asm" ],
     [ "sid.asm", "sid_8asm.html", "sid_8asm" ],
     [ "vdc.asm", "vdc_8asm.html", "vdc_8asm" ],
-    [ "vic2.asm", "vic2_8asm.html", "vic2_8asm" ]
+    [ "vic2.asm", "vic2_8asm.html", "vic2_8asm" ],
+    [ "zeropage.asm", "zeropage_8asm.html", "zeropage_8asm" ]
 ];
