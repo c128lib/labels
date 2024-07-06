@@ -2,6 +2,7 @@
  * @file vdc.asm
  * @brief Vdc module
  * @details This file contains labels that map to the VDC registers of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * The Commodore 128 has a VDC chip, which is responsible for controlling the video display.
  * The VDC chip controls the screen resolution, color, character set, and other display parameters.

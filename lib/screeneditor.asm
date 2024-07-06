@@ -2,6 +2,7 @@
  * @file screeneditor.asm
  * @brief Screen Editor module
  * @details This file contains labels that map to the Screen Editor routines of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * The Screen Editor is a part of the Kernal, the operating system of the Commodore 128. It provides a variety of routines
  * for tasks such as handling screen output, cursor movement, and screen formatting.

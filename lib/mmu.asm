@@ -2,6 +2,7 @@
  * @file mmu.asm
  * @brief Mmu module
  * @details This file contains labels that map to the MMU registers of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * The Commodore 128 has a MMU chip, which is responsible for managing the computer's memory.
  * The MMU chip controls the memory configuration, including the mapping of ROM and RAM banks.

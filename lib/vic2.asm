@@ -2,6 +2,7 @@
  * @file vic2.asm
  * @brief Vic2 module
  * @details This file contains labels that map to the VIC registers of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * The Commodore 128 has a VIC-IIe chip, which is an enhanced version of the VIC-II chip found in the Commodore 64.
  * The VIC-IIe chip controls the video output of the computer, including the screen resolution, color,

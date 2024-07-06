@@ -2,6 +2,7 @@
  * @file sid.asm
  * @brief Sid module
  * @details This file contains labels that map to the SID registers of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * The Commodore 128 has a SID chip, which is responsible for producing sound.
  * The SID chip controls three independent audio channels, each capable of generating

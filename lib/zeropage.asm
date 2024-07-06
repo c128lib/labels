@@ -2,6 +2,7 @@
  * @file zeropage.asm
  * @brief Zeropage module
  * @details This file contains labels that map some usable zeropage location of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * @author Raffaele Intorcia raffaele.intorcia@gmail.com
  *
@@ -35,7 +36,7 @@
 
 .namespace Zeropage {
   /**
-  @remarks This is a free location, however a bug
+  @remarks $FA is a free location, however a bug
   * in the screen editor CINT ($C07B) and SWAPPER ($CD2E)
   * routines causes this location to be overwritten whenever those
   * routines are executed. This happens in a RUN/STOP-RESTORE sequence

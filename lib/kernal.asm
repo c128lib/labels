@@ -2,6 +2,7 @@
  * @file kernal.asm
  * @brief Kernal module
  * @details This file contains labels that map to the Kernal routines of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * The Kernal is the operating system of the Commodore 128. It provides a variety of routines
  * for tasks such as input/output handling, memory management, and interrupt handling.

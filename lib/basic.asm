@@ -2,6 +2,7 @@
  * @file basic.asm
  * @brief Basic module
  * @details This file contains labels that map to the BASIC routines of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * BASIC (Beginner's All-purpose Symbolic Instruction Code) is the built-in programming language of the Commodore 128.
  * It provides a variety of routines for tasks such as input/output handling, mathematical operations, and program flow control.

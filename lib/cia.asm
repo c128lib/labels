@@ -2,6 +2,7 @@
  * @file cia.asm
  * @brief Cia module
  * @details This file contains labels that map to the CIA registers of the Commodore 128.
+ * Labels are intended to be used in assembly for 6502 with KickAssembler.
  *
  * The Commodore 128 has two CIA chips. CIA registers control various
  * aspects of the computer's hardware such as the keyboard, the disk drives, the user port,
